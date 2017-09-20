@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Open Sans";
+}
+
+#title {
+	font-weight: 600;
+}
+
+.message-input-container {
+	display: flex;
+	width: 640px;
+	margin: auto;
+	flex-direction: column;
+}
+
+.message-input {
+	flex: 1;
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background: rgb(230, 230, 230);
+}
+
+.message-submit {
+	border: none;
+	outline: none;
+	background: coral;
+	color: white;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+}
+
+input.message-submit:hover {
+	background: grey;
+}
+
+#stereogram {
+	margin: auto;
+	display: block;
+	width: 640px;
+}
